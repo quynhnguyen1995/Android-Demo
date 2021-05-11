@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">DemoKotlin</string>
+    <string name="splash">TODO</string>
+    <string name="sign_in">Sign In</string>
+    <string name="your_password">your password</string>
+    <string name="sign_in_to_your_crypzo_account">Sign In to your Crypzo account</string>
+    <string name="example_example_com">example@example.com</string>
+    <string name="btnSign_in"><![CDATA[Sign In]]></string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="don_t_have_an_account_yet">Don\'t have an account yet?</string>
+    <string name="sign_up"><u>Sign Up</u></string>
+    <string name="reset_your_password">reset your password</string>
+    <string name="enter_your_recovery_email_address_to">Enter your recovery email address to</string>
+    <string name="forgot_password1">Forgot Password</string>
+    <string name="request_otp"><![CDATA[Request OTP]]></string>
+    <string name="otp_verification">OTP Verification</string>
+    <string name="enter_the_otp_sent_to_your_registered">Enter the OTP sent to your registered</string>
+    <string name="back_otp"><![CDATA[<-]]></string>
+    <string name="mobile_number">mobile number</string>
+    <string name="otp">OTP</string>
+    <string name="continue_otp"><![CDATA[Continue]]></string>
+    <string name="back_reset"><![CDATA[<-]]></string>
+    <string name="reset_password">Reset Password</string>
+    <string name="setup_your_new_account_password">Setup your new account password</string>
+    <string name="new_password">New Password</string>
+    <string name="set_password"><![CDATA[Set Password]]></string>
+    <string name="continue_password">Continue Password</string>
+    <string name="back_forgot_password"><![CDATA[<-]]></string>
+    <string name="price_per_btc">Price per BTC</string>
+    <string name="place_buy_order">Place Buy Order</string>
+    <string name="_1btc_10_000">1BTC=10,000$</string>
+</resources>

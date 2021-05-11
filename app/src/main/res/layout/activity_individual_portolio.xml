@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IndividualPortolio"
+    android:background="#708090">
+
+    <TextView
+        android:id="@+id/txtYourCoins"
+        android:textColor="@android:color/white"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="20dp"
+        android:textSize="25sp"
+        android:text="Your Coins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints" />
+    <ImageView
+        android:id="@+id/imgPagination"
+        android:layout_marginTop="10dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtYourCoins"
+        android:src="@drawable/pagination"
+        android:layout_width="50dp"
+        android:layout_height="25dp"/>
+    <ImageView
+        android:id="@+id/imgBit"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/btc"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgPagination"
+        android:layout_width="350dp"
+        android:layout_height="100dp"/>
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtLast"
+        android:layout_marginLeft="75dp"
+        android:textColor="@android:color/white"
+        android:text="Last Transactions"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgBit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@+id/txtLast"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="75dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginRight="80dp">
+    </androidx.recyclerview.widget.RecyclerView>
+</androidx.constraintlayout.widget.ConstraintLayout>
