@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <group android:checkableBehavior="single">
         <item android:id="@+id/home"
-            android:title="Home" />
+            android:title="Home"/>
         <item android:id="@+id/trends"
             android:title="Trends" />
         <item android:id="@+id/kyc"
@@ -16,6 +17,6 @@
         <item android:id="@+id/feedback"
             android:title="Feedback" />
         <item android:id="@+id/sign_out"
-            android:title="Sign Out" />
+            android:title="Sign Out"/>
     </group>
 </menu>

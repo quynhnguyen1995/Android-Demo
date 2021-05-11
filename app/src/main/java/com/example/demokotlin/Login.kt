@@ -15,12 +15,6 @@ class Login : AppCompatActivity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login)
 
-        val actionBar = supportActionBar
-        actionBar!!.title = "Sign In"
-        actionBar.displayOptions = DISPLAY_SHOW_CUSTOM
-        actionBar.setCustomView(R.layout.back)
-        actionBar.setDisplayShowCustomEnabled(true)
-
         txtForgotPassword = findViewById(R.id.txtForgotPassword)
         btnSignIn = findViewById(R.id.btnSignIn)
 
@@ -31,6 +25,7 @@ class Login : AppCompatActivity(){
         btnSignIn.setOnClickListener {
             val intent1: Intent = Intent(this@Login, Home::class.java)
             startActivity(intent1)
+            finish()
         }
     }
 }

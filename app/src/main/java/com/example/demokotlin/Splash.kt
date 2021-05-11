@@ -15,6 +15,7 @@ class Splash : AppCompatActivity() {
         Timer("Login", false).schedule(500) {
             val intent: Intent = Intent(this@Splash, Login::class.java)
             startActivity(intent)
+            finish()
         }
     }
 
